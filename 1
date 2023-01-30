@@ -1,0 +1,21 @@
+const userInput = prompt("What's your question?");
+
+if (userInput.includes("hello")) {
+  console.log("Hello! How can I help you today?");
+} else if (userInput.includes("bye")) {
+  console.log("Goodbye! Have a great day.");
+} else if (userInput.includes("how are you")) {
+  console.log("I'm doing well, thank you! How about you?");
+} else if (userInput.includes("what's your name")) {
+  console.log("My name is Chatbot.");
+} else if (userInput.includes("what can you do")) {
+  console.log("I can answer questions and have simple conversations. What can I help you with today?");
+} else if (userInput.includes("best way to study")) {
+  console.log("Some effective study methods include: creating a study schedule, breaking down large tasks into smaller ones, actively engaging with the material, and seeking help when needed.");
+} else if (userInput.includes("how to focus on studies")) {
+  console.log("To focus on studies, try creating a study plan, reducing distractions, taking breaks, and setting goals. You can also try practicing mindfulness and staying organized.");
+} else if (userInput.includes("how to remember what you study")) {
+  console.log("To remember what you study, try active recall techniques, repetition, breaking down information into smaller chunks, and teaching others. Getting enough sleep and exercise can also help with memory retention.");
+} else {
+  console.log("I'm sorry, I didn't understand your question. Can you please rephrase it?");
+}
